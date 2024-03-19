@@ -14,12 +14,11 @@ const Footer = () => {
         <div className="flex items-center mt-8 md:mt-0">
           <p className="md:mr-4 text-xl font-normal leading-5 text-white inline-flex items-center cursor-pointer gap-2">N'hésitez pas à visiter mon github</p>
           <a href="https://github.com/GuiFraV" target="_blank" className="flex items-center text-black no-underline">
-            <img 
+            <img
               src={gitLogo}
               alt="github logo"
               className="w-8 ml-2"
             />
-            {/* <p className="ml-4 text-xl font-normal leading-5 text-white inline-flex items-center cursor-pointer gap-2">GuiFraV</p> */}
           </a>
         </div>
       </div>
