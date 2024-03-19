@@ -9,9 +9,18 @@
 }
 
 body {
-    background: #1A1D20;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: #1A1D20;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

@@ -2,10 +2,9 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";
 
-
 const App = () => {
   return (
-    <div className="m-4 mb-20">
+    <div className="m-4 mt-20 w-6/12">
       <Header />
       <Main /> 
       <Footer /> 
