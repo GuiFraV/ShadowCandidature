@@ -9,11 +9,9 @@
 }
 
 body {
-  color: #F5F5F5;
-  width: 100dvw;
-  overflow: hidden;
-  height: 100%;
-  background: #1A1D20;
-  border-color: #3b3b3b;
-  user-select: none;
+    background: #1A1D20;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: 100vh;
 }
