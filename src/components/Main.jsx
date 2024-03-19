@@ -1,31 +1,29 @@
-const Main = () => {
-  return (
-    <main>
-        <div>
-            <h1>Candidature Front End Developer - Guillaume Franguiadakis</h1>
-            <video src=""></video>
-        </div>
+import Features from "./Features"
 
-         <div>
-            <div>
-                <p>Modular</p>
-                <p>Go beyond teaching with just video. Choose from our library of interactive modules or create your own.</p>
+const Main = () => {
+    return (
+        <main>
+            <div className="mt-32 flex items-center justify-between">
+                <h1 className="w-3/6 text-left text-5xl">Front End Developer, Franguiadakis Guillaume</h1>
+                <div className="flex flex-col md:flex-row">
+                <input
+                    type="text"
+                    id="email"
+                    placeholder="Email Address"
+                    className="w-full md:w-auto mb-2 md:mb-0 md:mr-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+                <input
+                    type="submit"
+                    value="Add me"
+                    className="w-full md:w-auto px-6 py-2 bg-[#923ADB] text-white font-bold rounded-md cursor-pointer hover:bg-[#7e32b8] transition duration-300"
+                />
+                </div>
             </div>
-            <div>
-                <p>Customizable</p>
-                <p>Use our Headless API to build truly custom frontends.</p>
-            </div>
-            <div>
-                <p>PPP &amp; Managed Payments</p>
-                <p>Offer parity pricing, and leave the headache of processing to us.</p>
-            </div>
-            <div>
-                <p>Built by Teachers</p>
-                <p>Co-Founder Gary Simon has been teaching online for over 12 years. We know what teachers want.</p>
-            </div>
-        </div>
-    </main>
-  )
+
+            <Features />
+
+        </main>
+    )
 }
 
 export default Main

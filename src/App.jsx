@@ -7,7 +7,6 @@ const App = () => {
     <div className="m-4 mt-20 w-6/12">
       <Header />
       <Main /> 
-      <Footer /> 
     </div>
   );
 };
