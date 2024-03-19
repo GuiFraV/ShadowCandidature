@@ -18,6 +18,12 @@ const Main = () => {
       y: 0,
       duration: 2.2,
     });
+
+    gsap.to('.box', {
+        y:-20,
+        stagger: 0.5,
+        opacity: 1,
+    })
   }, []);
 
   return (
@@ -29,7 +35,7 @@ const Main = () => {
         >
           Front End Developer, Franguiadakis Guillaume
         </h1>
-        <div className="flex flex-col md:flex-row">
+        <div className="box flex flex-col md:flex-row opacity-0">
           <input
             type="text"
             id="email"
