@@ -7,7 +7,10 @@ import Features from './Features';
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
 const Main = () => {
+
   const headingRef = useRef(null);
+  const videoId = "Nc7tV0lRfYY";
+
 
   useEffect(() => {
     const tl = gsap.timeline();
@@ -48,6 +51,18 @@ const Main = () => {
             className="w-full md:w-auto px-6 py-2 bg-[#923ADB] text-white font-bold rounded-md cursor-pointer hover:bg-[#7e32b8] transition duration-300"
           />
         </div>
+      </div>
+
+
+     <div className="flex justify-center mt-8">
+        <iframe
+          width="560"
+          height="315"
+          src={`https://www.youtube.com/embed/${videoId}`}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
 
       <Features />
