@@ -7,10 +7,8 @@ import Features from './Features';
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
 const Main = () => {
-
   const headingRef = useRef(null);
   const videoId = "Nc7tV0lRfYY";
-
 
   useEffect(() => {
     const tl = gsap.timeline();
@@ -23,10 +21,10 @@ const Main = () => {
     });
 
     gsap.to('.box', {
-        y:-20,
-        stagger: 0.5,
-        opacity: 1,
-    })
+      y: -20,
+      stagger: 0.5,
+      opacity: 1,
+    });
   }, []);
 
   return (
@@ -53,8 +51,7 @@ const Main = () => {
         </div>
       </div>
 
-
-     <div className="flex justify-center mt-8">
+      <div className="flex justify-center mt-8">
         <iframe
           width="560"
           height="315"
