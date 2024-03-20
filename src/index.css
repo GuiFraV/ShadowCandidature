@@ -31,3 +31,33 @@ h1{
   font-style: normal;
 }
 
+
+@media (max-width: 1250px) {
+   body {
+    overflow-y: auto;
+  }
+  .text-4xl-1250 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .text-4xl-1250 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 769px) {
+  footer {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 580px) {
+  footer {
+    width: 100%;
+  }
+}

@@ -29,10 +29,10 @@ const Main = () => {
 
   return (
     <main>
-      <div className="mt-28 flex items-center justify-between">
-        <h1
+        <div className="mt-28 flex flex-col md:flex-row items-center justify-between h-[20vh] lg:h-auto">
+          <h1
           ref={headingRef}
-          className="w-3/6 text-left text-5xl clip-path-polygon opacity-0 transform translate-y-25"
+          className="w-3/6 text-left text-5xl text-4xl-1250 clip-path-polygon opacity-0 transform translate-y-25"
         >
           Front End Developer, Franguiadakis Guillaume
         </h1>
@@ -41,7 +41,9 @@ const Main = () => {
             href='/src/assets/CV/CV-Guillaume_FRANGUIADAKIS.pdf'
             download="CV-Guillaume_Franguiadakis.pdf"
             className="flex justify-center w-full px-6 py-2 bg-[#3853c9] text-white font-bold rounded-md cursor-pointer hover:bg-[#4c63c9] transition duration-300"
-          >Mon CV</a>
+          >
+            Mon CV
+          </a>
         </div>
       </div>
 
