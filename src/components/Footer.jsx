@@ -40,7 +40,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="w-full opacity-100 bg-gradient-to-r from-[#87a3e3] to-[#a185e7] p-4 text-[#1A1A1A] font-bold lg:m-0">
+    <footer className="w-full opacity-100 bg-gradient-to-r from-[#87a3e3] to-[#a185e7] text-[#1A1A1A]  font-bold lg:m-0 ">
       <div className="flex flex-col md:flex-row md:justify-between md:max-w-[1150px] md:mx-auto">
         <div className="flex items-center">
           <svg className="mr-2 mt-3" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -29,7 +29,7 @@ const Main = () => {
 
   return (
     <main>
-      <div className="mt-32 flex items-center justify-between">
+      <div className="mt-28 flex items-center justify-between">
         <h1
           ref={headingRef}
           className="w-3/6 text-left text-5xl clip-path-polygon opacity-0 transform translate-y-25"
