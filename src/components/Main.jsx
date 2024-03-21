@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
 const Main = () => {
   const headingRef = useRef(null);
-  const videoId = "Nc7tV0lRfYY";
+  const videoId = "EwSxwCp3Db4";
 
   useEffect(() => {
     const tl = gsap.timeline();
